@@ -10,6 +10,14 @@ homepage = "https://github.com/HxHippy/rFetch"
 documentation = "https://github.com/HxHippy/rFetch"
 keywords = ["system-info", "neofetch", "ascii-art", "terminal", "fetch"]
 categories = ["command-line-utilities", "visualization"]
+exclude = [
+    "generated_logos/",
+    "DistLogos/", 
+    "scripts/",
+    "batch_process_logos.sh",
+    "openlogo_debianv2_svg_logo*",
+    "*.png"
+]
 
 [dependencies]
 sysinfo = "0.30"
