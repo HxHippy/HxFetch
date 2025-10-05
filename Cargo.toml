@@ -1,0 +1,18 @@
+[package]
+name = "rfetch"
+version = "0.1.0"
+edition = "2021"
+description = "A fast system information tool for Unix-like systems, written in Rust"
+license = "MIT"
+authors = ["Your Name <your.email@example.com>"]
+
+[dependencies]
+sysinfo = "0.30"
+colored = "2.0"
+clap = { version = "4.0", features = ["derive"] }
+serde = { version = "1.0", features = ["derive"] }
+toml = "0.8"
+dirs = "5.0"
+regex = "1.10"
+viuer = "0.7"
+rascii_art = "0.3"
