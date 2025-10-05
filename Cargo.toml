@@ -16,7 +16,9 @@ exclude = [
     "scripts/",
     "batch_process_logos.sh",
     "openlogo_debianv2_svg_logo*",
-    "*.png"
+    "*.png",
+    "*.jpeg",
+    "*.jpg"
 ]
 
 [dependencies]

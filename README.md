@@ -1,6 +1,8 @@
-# rFetch
+# HxFetch
 
-A fast system information tool written in Rust, designed as a modern replacement for neofetch.
+![HxFetch](HxFetch.jpeg)
+
+A fast, modern system information tool written in Rust with comprehensive ASCII art support.
 
 ## Features
 
