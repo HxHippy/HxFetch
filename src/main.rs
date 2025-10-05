@@ -14,9 +14,9 @@ use crate::sysinfo::SystemInfo;
 use clap::{Arg, Command};
 
 fn main() {
-    let matches = Command::new("rfetch")
+    let matches = Command::new("hxfetch")
         .version("0.1.0")
-        .author("Your Name")
+        .author("HxHippy <hxhippy@gmail.com>")
         .about("A fast system information tool written in Rust")
         .arg(
             Arg::new("config")

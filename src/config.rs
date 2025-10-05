@@ -130,7 +130,7 @@ impl Config {
 
     fn get_config_path() -> PathBuf {
         let mut config_dir = dirs::config_dir().unwrap_or_else(|| PathBuf::from("."));
-        config_dir.push("rfetch");
+        config_dir.push("hxfetch");
         config_dir.push("config.toml");
         config_dir
     }

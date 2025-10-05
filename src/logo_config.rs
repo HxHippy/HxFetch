@@ -57,7 +57,7 @@ impl LogoConfig {
 
     pub fn get_config_path() -> PathBuf {
         if let Some(config_dir) = dirs::config_dir() {
-            config_dir.join("rfetch").join("logos.toml")
+            config_dir.join("hxfetch").join("logos.toml")
         } else {
             // Fallback to current directory
             PathBuf::from("logos.toml")

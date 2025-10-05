@@ -243,7 +243,7 @@ impl AsciiArt {
             // Add a helpful comment at the end
             logo.push(String::new());
             logo.push("# Create a custom logo with:".to_string());
-            logo.push("# rfetch --ascii-maker".to_string());
+            logo.push("# hxfetch --ascii-maker".to_string());
             logo.push(format!("# Use '{}' as OS name", clean_os_name));
         }
 

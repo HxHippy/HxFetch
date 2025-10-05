@@ -7,9 +7,9 @@ pub struct AsciiMaker;
 
 impl AsciiMaker {
     pub fn run() {
-        println!("🎨 rfetch ASCII Art Maker");
+        println!("🎨 hxfetch ASCII Art Maker");
         println!("=========================");
-        println!("Convert images to ASCII art for use in rfetch logos!");
+        println!("Convert images to ASCII art for use in hxfetch logos!");
         println!();
 
         loop {
@@ -92,7 +92,7 @@ impl AsciiMaker {
                 "📏 Using standardized dimensions: {}x{} characters",
                 width, height
             );
-            println!("   (This ensures consistency with existing rfetch logos)");
+            println!("   (This ensures consistency with existing hxfetch logos)");
 
             println!();
             println!("Converting image...");
@@ -186,7 +186,7 @@ impl AsciiMaker {
         println!("✏️  Manual ASCII Editor");
         println!("----------------------");
         println!("📏 Recommended size: 25 characters wide, 18 lines tall");
-        println!("   (This ensures consistency with other rfetch logos)");
+        println!("   (This ensures consistency with other hxfetch logos)");
         println!();
         println!("Enter your ASCII art line by line.");
         println!("Type 'DONE' on a new line when finished.");
@@ -330,9 +330,9 @@ impl AsciiMaker {
                         }
                     }
                     println!();
-                    println!("📋 To use this in rfetch:");
+                    println!("📋 To use this in hxfetch:");
                     println!(
-                        "Apply it automatically, or manually save to: ~/.config/rfetch/logos.toml"
+                        "Apply it automatically, or manually save to: ~/.config/hxfetch/logos.toml"
                     );
                     println!("Format:");
                     println!("  [logos.your_os_name]");
@@ -348,8 +348,8 @@ impl AsciiMaker {
                         println!("📄 Also saved as plain text: '{}'", txt_filename);
                     }
 
-                    // Ask if user wants to apply it to rfetch
-                    Self::offer_apply_to_rfetch(lines, function_name, colored);
+                    // Ask if user wants to apply it to hxfetch
+                    Self::offer_apply_to_hxfetch(lines, function_name, colored);
                 }
                 Err(e) => {
                     println!("❌ Error saving file: {}", e);
@@ -403,9 +403,9 @@ impl AsciiMaker {
             .collect()
     }
 
-    fn offer_apply_to_rfetch(lines: &[String], function_name: &str, colored: bool) {
+    fn offer_apply_to_hxfetch(lines: &[String], function_name: &str, colored: bool) {
         println!();
-        print!("🚀 Apply this logo to rfetch automatically? (y/n): ");
+        print!("🚀 Apply this logo to hxfetch automatically? (y/n): ");
         io::stdout().flush().unwrap();
 
         let mut input = String::new();
@@ -436,7 +436,7 @@ impl AsciiMaker {
                                 crate::logo_config::LogoConfig::get_config_path().display()
                             );
                             println!(
-                                "🚀 Your logo will be used automatically when running rfetch!"
+                                "🚀 Your logo will be used automatically when running hxfetch!"
                             );
                             if colored {
                                 println!(
