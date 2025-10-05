@@ -1,6 +1,6 @@
 [package]
 name = "hxfetch"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 description = "A fast, modern system information tool with 84+ ASCII art logos and built-in image-to-ASCII converter"
 license = "MIT"

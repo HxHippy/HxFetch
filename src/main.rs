@@ -15,7 +15,7 @@ use clap::{Arg, Command};
 
 fn main() {
     let matches = Command::new("hxfetch")
-        .version("0.1.1")
+        .version("0.1.2")
         .author("HxHippy <hxhippy@gmail.com>")
         .about("A fast system information tool written in Rust")
         .arg(

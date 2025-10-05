@@ -27,38 +27,38 @@ sudo cp target/release/hxfetch /usr/local/bin/
 
 ```bash
 # Basic usage
-rfetch
+hxfetch
 
 # Create custom ASCII logos from images
-rfetch --ascii-maker
+hxfetch --ascii-maker
 
 # Test with specific OS logo
-OS="arch" rfetch
-OS="ubuntu" rfetch
-OS="kali" rfetch
+OS="arch" hxfetch
+OS="ubuntu" hxfetch
+OS="kali" hxfetch
 
 # Configuration options
-rfetch --generate-config
-rfetch --no-config
-rfetch --help
+hxfetch --generate-config
+hxfetch --no-config
+hxfetch --help
 ```
 
 ## ASCII Art System
 
-rFetch includes a powerful ASCII art system with support for custom logos:
+HxFetch includes a powerful ASCII art system with support for custom logos:
 
 ### Built-in ASCII Maker
 ```bash
-rfetch --ascii-maker
+hxfetch --ascii-maker
 ```
-Convert any image to colored ASCII art and automatically integrate it into rFetch. Supports:
+Convert any image to colored ASCII art and automatically integrate it into HxFetch. Supports:
 - Automatic image resizing and optimization
 - Color preservation with ANSI escape sequences
 - Background removal for terminal theme compatibility
 - Direct integration with logo configuration system
 
 ### Custom Logo Configuration
-Logos are stored in `~/.config/rfetch/logos.toml`:
+Logos are stored in `~/.config/hxfetch/logos.toml`:
 ```toml
 [logos.archlinux]
 function_name = "arch_logo"
@@ -69,19 +69,19 @@ colored = true
 ### Testing Different Logos
 ```bash
 # Test any distribution logo
-OS="distribution_name" rfetch
+OS="distribution_name" hxfetch
 
 # Examples
-OS="debian" rfetch
-OS="fedora" rfetch
-OS="gentoo" rfetch
+OS="debian" hxfetch
+OS="fedora" hxfetch
+OS="gentoo" hxfetch
 ```
 
 ## Configuration
 
 Configuration files:
-- Main config: `~/.config/rfetch/config.toml`
-- Logo config: `~/.config/rfetch/logos.toml`
+- Main config: `~/.config/hxfetch/config.toml`
+- Logo config: `~/.config/hxfetch/logos.toml`
 
 ### Display Configuration Options
 - `show_os`: Operating system information
@@ -104,7 +104,7 @@ Configuration files:
 
 ## Supported Distributions
 
-rFetch includes ASCII logos for 80+ distributions including:
+HxFetch includes ASCII logos for 80+ distributions including:
 
 **Major Distributions:**
 - Ubuntu, Debian, Arch Linux, Fedora, openSUSE
