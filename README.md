@@ -15,10 +15,10 @@ A fast system information tool written in Rust, designed as a modern replacement
 ## Installation
 
 ```bash
-git clone https://github.com/HxHippy/rFetch.git
-cd rFetch
+git clone https://github.com/HxHippy/HxFetch.git
+cd HxFetch
 cargo build --release
-sudo cp target/release/rfetch /usr/local/bin/
+sudo cp target/release/hxfetch /usr/local/bin/
 ```
 
 ## Usage
@@ -130,8 +130,8 @@ Requirements:
 - Cargo
 
 ```bash
-git clone https://github.com/HxHippy/rFetch.git
-cd rFetch
+git clone https://github.com/HxHippy/HxFetch.git
+cd HxFetch
 cargo build --release
 ```
 
