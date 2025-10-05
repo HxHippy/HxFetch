@@ -2,9 +2,14 @@
 name = "rfetch"
 version = "0.1.0"
 edition = "2021"
-description = "A fast system information tool for Unix-like systems, written in Rust"
+description = "A fast, modern system information tool with 84+ ASCII art logos and built-in image-to-ASCII converter"
 license = "MIT"
-authors = ["Your Name <your.email@example.com>"]
+authors = ["HxHippy <hxhippy@gmail.com>"]
+repository = "https://github.com/HxHippy/rFetch"
+homepage = "https://github.com/HxHippy/rFetch"
+documentation = "https://github.com/HxHippy/rFetch"
+keywords = ["system-info", "neofetch", "ascii-art", "terminal", "fetch"]
+categories = ["command-line-utilities", "visualization"]
 
 [dependencies]
 sysinfo = "0.30"

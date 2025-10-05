@@ -15,7 +15,7 @@ A fast system information tool written in Rust, designed as a modern replacement
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/rFetch.git
+git clone https://github.com/HxHippy/rFetch.git
 cd rFetch
 cargo build --release
 sudo cp target/release/rfetch /usr/local/bin/
@@ -130,7 +130,7 @@ Requirements:
 - Cargo
 
 ```bash
-git clone https://github.com/your-username/rFetch.git
+git clone https://github.com/HxHippy/rFetch.git
 cd rFetch
 cargo build --release
 ```
@@ -153,8 +153,9 @@ cargo build --release
 ## Credits
 
 - **ASCII Art Generation**: Powered by the [`rascii_art`](https://crates.io/crates/rascii_art) crate
-- **System Information**: Built on the [`sysinfo`](https://crates.io/crates/sysinfo) crate
-- **Inspiration**: Inspired by the original [neofetch](https://github.com/dylanaraps/neofetch) project
+- **RASCII Project**: Special thanks to [RASCII](https://github.com/orhnk/RASCII/) for ASCII art conversion techniques and inspiration
+- **System Information**: Built on the [`sysinfo`](https://crates.io/crates/sysinfo) crate  
+- **Inspiration**: Inspired by the original [neofetch](https://github.com/dylanaraps/neofetch) project by Dylan Araps
 - **Logo Assets**: Distribution logos are property of their respective organizations
 
 ## License

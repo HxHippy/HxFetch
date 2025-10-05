@@ -1,5 +1,26 @@
+# Build artifacts
 /target
-neofetch
+Cargo.lock
+
+# Development files
 batch_process_logos.sh
 DistLogos/
 scripts/
+generated_logos/
+
+# Test files and artifacts
+openlogo_debianv2_svg_logo*.rs
+openlogo_debianv2_svg_logo*.txt
+*.png
+neofetch
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
