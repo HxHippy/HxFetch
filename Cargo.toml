@@ -1,5 +1,5 @@
 [package]
-name = "rfetch"
+name = "hxfetch"
 version = "0.1.0"
 edition = "2021"
 description = "A fast, modern system information tool with 84+ ASCII art logos and built-in image-to-ASCII converter"

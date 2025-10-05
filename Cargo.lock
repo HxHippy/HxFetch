@@ -423,6 +423,21 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "2304e00983f87ffb38b55b444b5e3b60a884b5d30c0fca7d82fe33449bbe55ea"
 
 [[package]]
+name = "hxfetch"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "colored",
+ "dirs",
+ "rascii_art",
+ "regex",
+ "serde",
+ "sysinfo",
+ "toml",
+ "viuer",
+]
+
+[[package]]
 name = "image"
 version = "0.24.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -727,21 +742,6 @@ name = "regex-syntax"
 version = "0.8.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "caf4aa5b0f434c91fe5c7f1ecb6a5ece2130b02ad2a590589dda5146df959001"
-
-[[package]]
-name = "rfetch"
-version = "0.1.0"
-dependencies = [
- "clap",
- "colored",
- "dirs",
- "rascii_art",
- "regex",
- "serde",
- "sysinfo",
- "toml",
- "viuer",
-]
 
 [[package]]
 name = "rgb"
